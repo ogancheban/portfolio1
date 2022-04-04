@@ -1,16 +1,16 @@
-// VANTA.NET({
-//     el: "#main-block",
-//     mouseControls: true,
-//     touchControls: true,
-//     gyroControls: false,
-//     minHeight: 200.00,
-//     minWidth: 200.00,
-//     scale: 1.00,
-//     scaleMobile: 1.00,
-//     color: 0xeb3d3d,
-//     backgroundColor: 0xc5c5c5,
-//     points: 14.00
-// })
+VANTA.NET({
+    el: "#main-block",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 1.00,
+    scaleMobile: 1.00,
+    color: 0xeb3d3d,
+    backgroundColor: 0xc5c5c5,
+    points: 14.00
+})
 
 const menuLinks = document.querySelectorAll('.menu__link[data-goto]');
 const burger = document.querySelector('.humburger-menu')
